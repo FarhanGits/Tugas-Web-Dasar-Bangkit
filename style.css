@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #fdfcf6;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #002321;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fdfcf6;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+li,
+a {
+    list-style: none;
+    color: #fdfcf6;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-me {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fdfcf6;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #e09d30;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info {
+    padding: 50px 50px 0 50px;
+    width: 70%;
+}
+
+.aside-img {
+    width: 35%;
+    height: 925px;
+}
+
+img {
+    max-height: 100%;
+}
+
+.about-article h1 {
+    font-size: 50px;
+    color: #0d1110;
+}
+
+.about-article span {
+    display: flex;
+    background-color: #e09d30;
+    height: 10px;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.about-article p {
+    font-size: larger;
+    color: #0d1110;
+    margin-bottom: 30px;
+    text-justify: auto;
+    line-height: normal;
+}
+
+.devider {
+    display: flex;
+    background-color: #0d1110;
+    height: 2px;
+    width: 100%;
+}
+
+.task-list {
+    padding-top: 30px;
+}
+
+.task-list h1 {
+    font-size: 50px;
+    color: #0d1110;
+}
+
+.task-list span {
+    display: flex;
+    background-color: #e09d30;
+    height: 10px;
+    width: 42%;
+    margin-bottom: 30px;
+}
+
+.task {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #002321;
+    color: #fdfcf6;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.task:last-child {
+    margin-bottom: 0;
+}
+
+.task-info {
+    width: 85%;
+}
+
+.task-info h1 {
+    font-size: x-large;
+    color: #fdfcf6;
+}
+
+.task-info span {
+    display: flex;
+    background-color: #e09d30;
+    height: 5px;
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.task-info p {
+    font-size: small;
+    color: #fdfcf6;
+}
+
+.task-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #e09d30;
+}
+
+.contact-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section h1 {
+    font-size: 50px;
+    color: #0d1110;
+}
+
+.contact-section span {
+    display: flex;
+    background-color: #e09d30;
+    height: 10px;
+    width: 5%;
+    margin-bottom: 50px;
+}
+
+.contact-section .contact-prolog {
+    font-size: x-large;
+    color: #0d1110;
+    margin-bottom: 50px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram,
+.email,
+.linkedin {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram .logo,
+.email .logo,
+.linkedin .logo {
+    font-size: larger;
+    color: #0d1110;
+    margin-bottom: 10px;
+}
+
+.instagram .contact-title,
+.email .contact-title,
+.linkedin .contact-title {
+    font-size: medium;
+    color: #0d1110;
+}
+
+.instagram .contact-title a,
+.email .contact-title a,
+.linkedin .contact-title a {
+    font-size: medium;
+    color: #0d1110;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #002321;
+    color: #fdfcf6;
+    height: 8rem;
+}
